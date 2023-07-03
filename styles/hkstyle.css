@@ -47,15 +47,19 @@ main section img {
     height: 725px;
     background-color: var(--secondary-color);
     grid-column: 1/11;
-    grid-row: 4/9;
+    grid-row: 1/9;
 
 }
 
 /* change  */
+.mountains, .msg {
+    margin: 100px 0;
+}
+
 .mountains {
     width: 100%;
-    grid-column: 2/7;
-    grid-row: 5/8;
+    grid-column: 1/7;
+    grid-row: 1/8;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -63,8 +67,8 @@ main section img {
     background-color: var(--accent3-color);
     line-height: 1em;
     padding: 35px;
-    grid-column: 6/10;
-    grid-row: 6/7;
+    grid-column: 8/16;
+    grid-row: 1/2;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -99,18 +103,18 @@ main section img {
 
 .rivers-card {
     grid-column: 2/4;
-    grid-row: 2/3;
+    grid-row: 10/10;
 }
 
 .camping-card {
     grid-column: 5/7;
-    grid-row: 2/3;
+    grid-row: 10/10;
     
 }
 
 .rapids-card {
     grid-column: 8/10;
-    grid-row: 2/3;
+    grid-row: 10/10;
 
 }
 
