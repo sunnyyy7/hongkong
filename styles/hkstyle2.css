@@ -84,16 +84,15 @@ main section img {
 }
 
 
-
 /* change  */
+
 .mountains, .msg {
     margin: 100px 0;
+    display: inline-block;
 }
 
 .mountains {
-    width: 50%;
-    grid-column: 1/7;
-    grid-row: 1/8;
+    width: 60%;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
@@ -101,8 +100,7 @@ main section img {
     background-color: var(--accent3-color);
     line-height: 1em;
     padding: 35px;
-    grid-column: 8/200;
-    grid-row: 1/2;
+    width: 30%;
     box-shadow: 5px 5px 10px #6f7364;
 }
 
